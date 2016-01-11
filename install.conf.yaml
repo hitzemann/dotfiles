@@ -4,7 +4,12 @@
         ~/.dotfiles: ''
         ~/.tmux.conf: tmux/tmux.conf
         ~/.Xresources: X/Xresources
-        ~/bin: bin
+        ~/bin/git-wtf:
+                create: true
+                path: bin/git-wtf
+        ~/bin/backlight.pl:
+                create: true
+                path: bin/backlight.pl
         ~/.oh-my-zsh: oh-my-zsh
         ~/.zshrc: zsh/zshrc
         ~/.vim: vim/vim
