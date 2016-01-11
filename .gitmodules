@@ -4,3 +4,15 @@
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule "vim/vim/bundle/Solarized"]
+	path = vim/vim/bundle/Solarized
+	url = https://github.com/vim-scripts/Solarized.git
+[submodule "vim/vim/bundle/Vundle.vim"]
+	path = vim/vim/bundle/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim.git
+[submodule "vim/vim/bundle/powerline"]
+	path = vim/vim/bundle/powerline
+	url = https://github.com/powerline/powerline.git
+[submodule "vim/vim/bundle/rust.vim"]
+	path = vim/vim/bundle/rust.vim
+	url = https://github.com/rust-lang/rust.vim.git
