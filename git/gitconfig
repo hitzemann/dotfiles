@@ -3,3 +3,7 @@
 	email = github@simon.hitzemann.org
 [push]
 	default = simple
+
+# Allow local customizations in the .gitconfig_local file
+[include]
+	path = ~/.gitconfig_local
