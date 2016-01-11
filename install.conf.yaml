@@ -5,6 +5,7 @@
         ~/.tmux.conf: tmux/tmux.conf
         ~/.Xresources: X/Xresources
         ~/bin: bin
+        ~/.oh-my-zsh: oh-my-zsh
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
