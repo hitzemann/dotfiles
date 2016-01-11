@@ -6,6 +6,7 @@
         ~/.Xresources: X/Xresources
         ~/bin: bin
         ~/.oh-my-zsh: oh-my-zsh
+        ~/.zshrc: zsh/zshrc
         ~/.vim: vim/vim
         ~/.vimrc: vim/vimrc
 
