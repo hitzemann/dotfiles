@@ -1,0 +1,9 @@
+- clean: ['~']
+
+- link:
+        ~/.dotfiles: ''
+        ~/.tmux.conf: tmux/tmux.conf
+        ~/.Xresources: X/Xresources
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
