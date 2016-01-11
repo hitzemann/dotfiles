@@ -1,0 +1,5 @@
+[user]
+	name = Simon Hitzemann
+	email = github@simon.hitzemann.org
+[push]
+	default = simple
