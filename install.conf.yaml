@@ -2,19 +2,35 @@
 
 - link:
         ~/.dotfiles: ''
-        ~/.tmux.conf: tmux/tmux.conf
-        ~/.Xresources: X/Xresources
+        ~/.tmux.conf:
+                relink: true
+                path: tmux/tmux.conf
+        ~/.Xresources:
+                relink: true
+                path: X/Xresources
         ~/bin/git-wtf:
                 create: true
+                relink: true
                 path: bin/git-wtf
         ~/bin/backlight.pl:
                 create: true
+                relink: true
                 path: bin/backlight.pl
-        ~/.oh-my-zsh: oh-my-zsh
-        ~/.zshrc: zsh/zshrc
-        ~/.vim: vim/vim
-        ~/.vimrc: vim/vimrc
-        ~/.gitconfig: git/gitconfig
+        ~/.oh-my-zsh:
+                relink: true
+                path: oh-my-zsh
+        ~/.zshrc:
+                relink: true
+                path: zsh/zshrc
+        ~/.vim:
+                relink: true
+                path: vim/vim
+        ~/.vimrc:
+                relink: true
+                path: vim/vimrc
+        ~/.gitconfig:
+                relink: true
+                path: git/gitconfig
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
