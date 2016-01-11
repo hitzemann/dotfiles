@@ -52,3 +52,13 @@ filetype plugin indent on    " required
 set background=light
 colorscheme solarized
 set t_Co=16
+
+"---------------------
+" Local customizations
+"---------------------
+
+" local customizations in ~/.vimrc_local
+let $LOCALFILE=expand("~/.vimrc_local")
+if filereadable($LOCALFILE)
+    source $LOCALFILE
+endif
