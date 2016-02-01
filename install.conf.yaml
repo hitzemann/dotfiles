@@ -20,6 +20,10 @@
                 create: true
                 relink: true
                 path: bin/rustup.sh
+        ~/bin/movieme:
+                create: true
+                relink: true
+                path: bin/movieme
         ~/.oh-my-zsh:
                 relink: true
                 path: oh-my-zsh
