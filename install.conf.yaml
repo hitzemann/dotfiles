@@ -16,6 +16,10 @@
                 create: true
                 relink: true
                 path: bin/backlight.pl
+        ~/bin/rustup.sh:
+                create: true
+                relink: true
+                path: bin/rustup.sh
         ~/.oh-my-zsh:
                 relink: true
                 path: oh-my-zsh
