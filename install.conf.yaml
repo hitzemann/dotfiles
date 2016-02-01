@@ -41,4 +41,5 @@
                 path: git/gitconfig
 
 - shell:
+  - [gem install gifme, Installing gifme]
   - [git submodule update --init --recursive, Installing submodules]
