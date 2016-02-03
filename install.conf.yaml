@@ -39,6 +39,10 @@
         ~/.gitconfig:
                 relink: true
                 path: git/gitconfig
+        ~/.config/i3/config:
+                relink: true
+                create: true
+                path: i3/config
 
 - shell:
   - [gem install gifme, Installing gifme]
