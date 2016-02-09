@@ -56,7 +56,11 @@ HIST_STAMPS="yyyy-mm-dd"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git systemd thefuck catimg git-extras z zsh-syntax-highlighting fedora mosh)
+if (( ${+plugins} )); then
+	echo "plugins already set, using them"
+else
+	plugins=(git systemd thefuck catimg git-extras z zsh-syntax-highlighting fedora mosh)
+fi
 
 # User configuration
 
