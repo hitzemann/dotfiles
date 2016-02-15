@@ -16,3 +16,6 @@
 [submodule "vim/vim/bundle/rust.vim"]
 	path = vim/vim/bundle/rust.vim
 	url = https://github.com/rust-lang/rust.vim.git
+[submodule "fonts"]
+	path = fonts
+	url = https://github.com/powerline/fonts.git
