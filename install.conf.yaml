@@ -47,3 +47,4 @@
 - shell:
   - [gem install gifme, Installing gifme]
   - [git submodule update --init --recursive, Installing submodules]
+  - [fonts/install.sh, Installing powerline fonts]
