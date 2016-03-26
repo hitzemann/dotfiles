@@ -123,6 +123,7 @@ alias -s png=eog
 
 # 3) Scripts and such
 test -f ~/.keychain/`uname -n`-sh && source ~/.keychain/`uname -n`-sh
+test -f ~/.keychain/`uname -n`-sh && source ~/.keychain/`uname -n`-sh-gpg
 test -x /usr/bin/keychain && eval `keychain --agents gpg,ssh --eval $HOME/.ssh/id_dsa $HOME/.ssh/id_ecdsa $HOME/.ssh/id_ed25519 $HOME/.ssh/id_rsa BA8A75F1`
 test -f ~/.keychain/`uname -n`-sh && source ~/.keychain/`uname -n`-sh
 test -f ~/.keychain/`uname -n`-sh-gpg && source ~/.keychain/`uname -n`-sh-gpg
