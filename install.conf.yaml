@@ -27,6 +27,9 @@
         ~/.oh-my-zsh:
                 relink: true
                 path: oh-my-zsh
+        ~/.dir_colors:
+                relink: true
+                path: zsh/dircolors
         ~/.zshrc:
                 relink: true
                 path: zsh/zshrc

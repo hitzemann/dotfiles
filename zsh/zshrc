@@ -143,6 +143,8 @@ export HISTCONTROL=ignoredups;
 export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help";
 # enable tab completion for dcfldd :)
 compdef dcfldd=dd
+# Set directory colors
+eval $(dircolors $HOME/.dir_colors)
 
 # Allow local customizations in the ~/.zshrc_local_after file
 if [ -f ~/.zshrc_local_after ]; then
