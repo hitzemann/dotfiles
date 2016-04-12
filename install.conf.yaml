@@ -48,3 +48,4 @@
   - [gem install gifme, Installing gifme]
   - [git submodule update --init --recursive, Installing submodules]
   - [fonts/install.sh, Installing powerline fonts]
+  - [gsettings set org.gnome.desktop.interface clock-show-date true, Showing current date in GNOME 3 taskbar]
