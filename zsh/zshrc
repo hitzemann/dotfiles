@@ -132,7 +132,7 @@ xrdb -DSOLARIZED_DARK -merge ~/.Xresources
 # 4) ZSH stuff
 zstyle ':completion:*' use-cache on
 zstyle ':completion:*' cache-path ~/.zsh/cache
-eval $(thefuck --alias)
+eval $($HOME/.local/bin/thefuck --alias)
 setopt HIST_IGNORE_DUPS
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
 ZSH_HIGHLIGHT_PATTERNS=('rm -rf *' 'fg=white,bold,bg=red')
