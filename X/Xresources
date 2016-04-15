@@ -12,6 +12,8 @@ XTerm.faceSize:   20
 urxvt.font:       xft:DejaVuSansMono:size=20
 ! }}}
 !
+Xcursor*size:     48
+!
 ! Solarized color scheme for the X Window System
 !
 ! http://ethanschoonover.com/solarized
