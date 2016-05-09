@@ -1,49 +1,40 @@
+- defaults:
+        link:
+                relink: true
+
 - clean: ['~']
 
 - link:
         ~/.dotfiles: ''
         ~/.tmux.conf:
-                relink: true
                 path: tmux/tmux.conf
         ~/.Xresources:
-                relink: true
                 path: X/Xresources
         ~/bin/git-wtf:
                 create: true
-                relink: true
                 path: bin/git-wtf
         ~/bin/backlight.pl:
                 create: true
-                relink: true
                 path: bin/backlight.pl
         ~/bin/rustup.sh:
                 create: true
-                relink: true
                 path: bin/rustup.sh
         ~/bin/movieme:
                 create: true
-                relink: true
                 path: bin/movieme
         ~/.oh-my-zsh:
-                relink: true
                 path: oh-my-zsh
         ~/.dir_colors:
-                relink: true
                 path: zsh/dircolors
         ~/.zshrc:
-                relink: true
                 path: zsh/zshrc
         ~/.vim:
-                relink: true
                 path: vim/vim
         ~/.vimrc:
-                relink: true
                 path: vim/vimrc
         ~/.gitconfig:
-                relink: true
                 path: git/gitconfig
         ~/.config/i3/config:
-                relink: true
                 create: true
                 path: i3/config
 
