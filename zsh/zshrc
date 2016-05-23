@@ -128,7 +128,7 @@ test -x /usr/bin/keychain && eval `keychain --agents gpg,ssh --eval $HOME/.ssh/i
 test -f ~/.keychain/`uname -n`-sh && source ~/.keychain/`uname -n`-sh
 test -f ~/.keychain/`uname -n`-sh-gpg && source ~/.keychain/`uname -n`-sh-gpg
 if [ `uname -s` = 'Linux' ]; then
-	xrdb -DSOLARIZED_DARK -merge ~/.Xresources
+	test -x /usr/bin/xrdb && xrdb -DSOLARIZED_DARK -merge ~/.Xresources
 fi
 
 # 4) ZSH stuff
