@@ -62,3 +62,7 @@ let $LOCALFILE=expand("~/.vimrc_local")
 if filereadable($LOCALFILE)
     source $LOCALFILE
 endif
+
+set laststatus=2 " Always display the statusline in all windows
+set guifont=Inconsolata\ for\ Powerline:h12
+set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
