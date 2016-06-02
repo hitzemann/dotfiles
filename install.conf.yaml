@@ -38,7 +38,10 @@
                 create: true
                 path: i3/config
         ~/.config/powerline:
+                create: true
                 path: powerline
+        ~/.gemrc:
+                path: ruby/gemrc
 
 - shell:
   - [gem install gifme, Installing gifme]
