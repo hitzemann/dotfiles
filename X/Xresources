@@ -1,18 +1,18 @@
 ! Make sure to run something like xrdb -DSOLARIZED_DARK -merge ~/.Xresources
 
 ! Fonts {{{
-Xft.antialias:    true
-Xft.hinting:      true
-Xft.rgba:         rgb
-Xft.hintstyle:    full
-Xft.dpi:          277
-XTerm.renderFont: true
-XTerm.faceName:   DejaVuSansMono
-XTerm.faceSize:   20
-urxvt.font:       xft:DejaVuSansMono:size=20
+!Xft.antialias:    true
+!Xft.hinting:      true
+!Xft.rgba:         rgb
+!Xft.hintstyle:    full
+!Xft.dpi:          277
+!XTerm.renderFont: true
+!XTerm.faceName:   DejaVuSansMono
+!XTerm.faceSize:   20
+!urxvt.font:       xft:DejaVuSansMono:size=20
 ! }}}
 !
-Xcursor*size:     48
+!Xcursor*size:     48
 !
 ! Solarized color scheme for the X Window System
 !
