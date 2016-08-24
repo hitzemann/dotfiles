@@ -48,6 +48,9 @@
         ~/.kde4/share/apps/konsole/Solarized Light.colorscheme:
                 create: true
                 path: konsole-colors-solarized/Solarized Light.colorscheme
+        ~/.local/share/konsole/Profile 1.profile:
+                create: true
+                path: kde/Profile 1.profile
 
 - shell:
   - [gem install gifme, Installing gifme]
