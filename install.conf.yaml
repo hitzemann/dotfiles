@@ -42,6 +42,12 @@
                 path: powerline
         ~/.gemrc:
                 path: ruby/gemrc
+        ~/.kde4/share/apps/konsole/Solarized Dark.colorscheme:
+                create: true
+                path: konsole-colors-solarized/Solarized Dark.colorscheme
+        ~/.kde4/share/apps/konsole/Solarized Light.colorscheme:
+                create: true
+                path: konsole-colors-solarized/Solarized Light.colorscheme
 
 - shell:
   - [gem install gifme, Installing gifme]
