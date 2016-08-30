@@ -51,6 +51,9 @@
         ~/.local/share/konsole/Profile 1.profile:
                 create: true
                 path: kde/Profile 1.profile
+        ~/.config/trizen/trizen.conf:
+                create: true
+                path: trizen/trizen.conf
 
 - shell:
   - [gem install gifme, Installing gifme]
