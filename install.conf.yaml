@@ -62,3 +62,4 @@
   - [gsettings set org.gnome.desktop.interface clock-show-date true, Showing current date in GNOME 3 taskbar]
   - [dconf load /org/gnome/terminal/ < gnome/gnome-terminal.xml, Setting up the Simon profile on GNOME terminal]
   - [gnome-terminal-colors-solarized/set_dark.sh Simon, Setting GNOME terminal to solarized dark colors]
+  - [gsettings set org.gnome.desktop.peripherals.touchpad send-events disabled-on-external-mouse, Disable Touchpad if mouse is connected]
