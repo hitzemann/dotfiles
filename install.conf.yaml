@@ -37,6 +37,12 @@
         ~/.config/i3/config:
                 create: true
                 path: i3/config
+        ~/.config/polybar/config:
+                create: true
+                path: polybar/config
+        ~/.config/polybar/launch.sh:
+                create: true
+                path: polybar/launch.sh
         ~/.config/powerline:
                 create: true
                 path: powerline
