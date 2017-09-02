@@ -17,7 +17,9 @@ set $mod Mod4
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango:DejaVu Sans Mono 8
+#font pango:DejaVu Sans Mono 8
+
+font pango: Inconsolata for Powerline Medium 8
 
 # Before i3 v4.8, we used to recommend this one as the default:
 # font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
@@ -152,14 +154,19 @@ bindsym $mod+r mode "resize"
 bindsym XF86AudioLowerVolume exec /usr/bin/pactl set-sink-volume 1 '-5%'
 bindsym XF86AudioRaiseVolume exec /usr/bin/pactl set-sink-volume 1 '+5%'
 bindsym XF86AudioMute exec /usr/bin/pactl set-sink-volume 1 0
+bindsym XF86MonBrightnessDown exec /usr/bin/lux -s '10%'
+bindsym XF86MonBrightnessUp exec /usr/bin/lux -a '10%'
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-bar {
+#bar {
 	#position top
 	#mode hide
 	#modifier $mod
-        status_command i3status
-        tray_output primary
-	font pango:DejaVu Sans Mono 8
-}
+#        status_command i3status
+#        tray_output primary
+#	font pango:DejaVu Sans Mono 8
+#}
+
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec --no-startup-id nm-applet
