@@ -16,6 +16,9 @@
         ~/bin/backlight.pl:
                 create: true
                 path: bin/backlight.pl
+        ~/bin/i3lock-wrapper:
+                create: true
+                path: bin/i3lock-wrapper
         ~/bin/rustup.sh:
                 create: true
                 path: bin/rustup.sh
