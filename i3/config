@@ -175,9 +175,11 @@ bindsym XF86MonBrightnessUp exec /usr/bin/lux -a '10%'
 
 hide_edge_borders both
 
-assign [class="^spotify$"] 2
+for_window [class="^Spotify$"] move to workspace 2
 assign [class="^Opera$"] 10
 
+exec_always --no-startup-id /usr/bin/dispwin '/home/simon/.local/share/icc/HB125WX1-200 #1 2017-09-04 08-18 2.2 F-S XYZLUT+MTX.icc'
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-is /usr/bin/unity-settings-daemon
 exec --no-startup-id nm-applet
 exec --no-startup-id compton --opacity-rule '100:window_type = "dock" && class_g = "polybar"' --config $HOME/.config/compton/compton.conf -b
