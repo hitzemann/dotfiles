@@ -63,6 +63,9 @@
         ~/.config/trizen/trizen.conf:
                 create: true
                 path: trizen/trizen.conf
+        ~/.config/deepin/deepin-terminal/config.conf:
+                create: true
+                path: deeping/terminal.conf
 
 - shell:
   - [gem install gifme, Installing gifme]
