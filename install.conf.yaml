@@ -51,10 +51,10 @@
                 path: powerline
         ~/.gemrc:
                 path: ruby/gemrc
-        ~/.kde4/share/apps/konsole/Solarized Dark.colorscheme:
+        ~/.kde4/share/apps/konsole/Solarized\ Dark.colorscheme:
                 create: true
                 path: konsole-colors-solarized/Solarized Dark.colorscheme
-        ~/.kde4/share/apps/konsole/Solarized Light.colorscheme:
+        ~/.kde4/share/apps/konsole/Solarized\ Light.colorscheme:
                 create: true
                 path: konsole-colors-solarized/Solarized Light.colorscheme
         ~/.local/share/konsole/Profile 1.profile:
@@ -65,7 +65,7 @@
                 path: trizen/trizen.conf
         ~/.config/deepin/deepin-terminal/config.conf:
                 create: true
-                path: deeping/terminal.conf
+                path: deepin/terminal.conf
 
 - shell:
   - [gem install gifme, Installing gifme]
