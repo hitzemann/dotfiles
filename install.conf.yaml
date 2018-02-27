@@ -66,6 +66,9 @@
         ~/.config/deepin/deepin-terminal/config.conf:
                 create: true
                 path: deepin/terminal.conf
+        ~/.config/xfce4/terminal/terminalrc:
+                create: true
+                path: xfce4/terminalrc
 
 - shell:
   - [gem install gifme, Installing gifme]
