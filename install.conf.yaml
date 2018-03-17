@@ -78,3 +78,4 @@
   - [dconf load /org/gnome/terminal/ < gnome/gnome-terminal.xml, Setting up the Simon profile on GNOME terminal]
   - [gnome-terminal-colors-solarized/set_dark.sh Simon, Setting GNOME terminal to solarized dark colors]
   - [gsettings set org.gnome.desktop.peripherals.touchpad send-events disabled-on-external-mouse, Disable Touchpad if mouse is connected]
+  - [pantheon-terminal-colors-solarized/install.sh, Setting Pantheon terminal to solarized dark colors]
