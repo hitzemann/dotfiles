@@ -60,6 +60,9 @@
         ~/.local/share/konsole/Profile 1.profile:
                 create: true
                 path: kde/Profile 1.profile
+        ~/.config/konsolerc:
+                create: true
+                path: kde/konsolerc
         ~/.config/trizen/trizen.conf:
                 create: true
                 path: trizen/trizen.conf
