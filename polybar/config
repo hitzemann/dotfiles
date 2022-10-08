@@ -50,7 +50,7 @@ font-2 = FontAwesome:pixelsize=10
 font-3 = siji:pixelsize=10
 
 modules-left = bspwm i3 xwindow
-modules-center = 
+modules-center =
 modules-right = backlight volume xkeyboard memory cpu wlan eth battery battery2 temperature date powermenu
 
 tray-position = right

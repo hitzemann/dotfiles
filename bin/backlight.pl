@@ -13,7 +13,7 @@ my $old_brightness = qx($xbacklight -get);
 my $new_brightness;
 
 for ($command) {
-	if (/^up$/i) { 
+	if (/^up$/i) {
 		for ($old_brightness) {
 			if ($_ > (100-$step)) {
 				$new_brightness = 100;
@@ -21,7 +21,7 @@ for ($command) {
 				$new_brightness = $old_brightness+$step;
 			}
 		}
-	} elsif (/^down$/i) { 
+	} elsif (/^down$/i) {
 		for ($old_brightness) {
 			if ($_ < ($step+1)) {
 				$new_brightness = 1;
@@ -29,7 +29,7 @@ for ($command) {
 				$new_brightness = $old_brightness-$step;
 			}
 		}
-	} elsif (/^toggle$/i) { 
+	} elsif (/^toggle$/i) {
 		for ($old_brightness) {
 			if ($_ > 0) {
 				$new_brightness = 1;

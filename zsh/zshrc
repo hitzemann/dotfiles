@@ -59,7 +59,7 @@ HIST_STAMPS="yyyy-mm-dd"
 if (( ${+plugins} )); then
 	echo "plugins already set, using them"
 else
-	plugins=(git systemd thefuck catimg git-extras z zsh-syntax-highlighting fedora mosh)
+	plugins=(git thefuck catimg git-extras z zsh-syntax-highlighting macos brew mosh)
 fi
 
 # User configuration
@@ -147,7 +147,7 @@ export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help";
 # enable tab completion for dcfldd :)
 compdef dcfldd=dd
 # Set directory colors
-eval $(dircolors $HOME/.dir_colors)
+eval $(gdircolors $HOME/.dir_colors)
 
 # Allow local customizations in the ~/.zshrc_local_after file
 if [ -f ~/.zshrc_local_after ]; then
